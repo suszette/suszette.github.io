@@ -51,3 +51,7 @@ Thus bringing "model" into focus against the semantic background of these other 
 
 # Bibliography
 
+Resources:
+
+"/_data/markdown.pdf"
+"/_data/markdown.docx"
