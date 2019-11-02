@@ -3,8 +3,8 @@ layout: post
 title: markdown & pandoc
 ---
 
-19.
-===
+## 19.
+
 
 Modeling: A Study in Words and Meanings
 =======================================
