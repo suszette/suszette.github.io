@@ -53,5 +53,5 @@ Thus bringing "model" into focus against the semantic background of these other 
 
 Resources:
 
-"/_data/markdown.pdf"
-"/_data/markdown.docx"
+PDF ["/_data/markdown.pdf"]
+DOCX ["/_data/markdown.docx"]
