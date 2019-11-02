@@ -6,11 +6,9 @@ title: markdown & pandoc
 ## 19.
 
 
-Modeling: A Study in Words and Meanings
-=======================================
+## Modeling: A Study in Words and Meanings
 
-Willard McCarty
----------------
+# Willard McCarty
 
 > Out on site, you were never parted from your plans. They were your
 > Bible. They got dog-eared, yellowed, smeared with mud, peppered with
@@ -60,8 +58,8 @@ participle, its semantic lemma. Before getting to the philology I
 discuss modeling in the light of the available literature and then
 consider the strong and learned complaints about the term.
 
-Background
-==========
+# Background
+
 
 Let me begin with provisional definitions1. By "modeling" I mean the
 heuristic process of constructing and manipulating models', a "model" I
@@ -207,8 +205,8 @@ characteristic blurring of design into use and use into (re)design is
 what denies modeling of any sense of closure. Modeling for, Utopian by
 definition, is denied it in any case.
 
-Learned Complaints
-==================
+# Learned Complaints
+
 
 So far so good -- but at the cost of averting our gaze from the problems
 with the word "model." Indeed, the extensive and growing literature on
@@ -246,8 +244,8 @@ What do all have in common? What are their individual tendencies of
 mind, and which of these best suits computing as we are learning to
 conceive it?
 
-Philological Analysis of Related Terms
-======================================
+# Philological Analysis of Related Terms
+
 
 So far I have used the term "model" as the default, partly for purposes
 of convenience, partly because, as I argue, it is right for the job. To
