@@ -51,5 +51,5 @@ Thus bringing "model" into focus against the semantic background of these other 
 
 # Bibliography
 
-see [pdf](https://github.com/suszette/suszette.github.io/blob/master/_posts/markdown.pdf)  
-see [docx](https://github.com/suszette/suszette.github.io/blob/master/_posts/markdown.docx)
+see [pdf](https://github.com/suszette/suszette.github.io/blob/master/_posts/markdownnew.pdf)  
+see [docx](https://github.com/suszette/suszette.github.io/blob/master/_posts/markdownnew.docx)
