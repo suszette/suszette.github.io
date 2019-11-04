@@ -53,6 +53,6 @@ Thus bringing "model" into focus against the semantic background of these other 
 
 Resources:
 
-see [pdf](_data/markdown.pdf)
-see [docx](_data/markdown.docx)
+see [pdf](_posts/markdown.pdf)
+see [docx](_posts/markdown.docx)
 
