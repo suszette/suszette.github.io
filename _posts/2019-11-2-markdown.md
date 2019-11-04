@@ -53,5 +53,7 @@ Thus bringing "model" into focus against the semantic background of these other 
 
 Resources:
 
+see documentation [here](_data/markdown.pdf)
+
 PDF ["/_data/markdown.pdf"]
 DOCX ["/_data/markdown.docx"]
