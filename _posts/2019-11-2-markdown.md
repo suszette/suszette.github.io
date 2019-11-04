@@ -53,6 +53,6 @@ Thus bringing "model" into focus against the semantic background of these other 
 
 Resources:
 
-see [pdf](.suszette.github.io/markdown.pdf)  
-see [docx](.suszette.github.io/markdown.docx)
+see [pdf](https://github.com/suszette/suszette.github.io/blob/master/_posts/markdown.pdf)  
+see [docx](https://github.com/suszette/suszette.github.io/blob/master/_posts/markdown.docx)
 
