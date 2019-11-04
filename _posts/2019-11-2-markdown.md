@@ -4,10 +4,6 @@ title: pandoc & markdown
 bibliography: lib.bib
 ---
 
----
-bibliography: lib.bib
----
-
 # 19.
 # Modeling: A Study in Words and Meanings
 ## Willard McCarty
