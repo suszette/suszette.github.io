@@ -56,5 +56,3 @@ Resources:
 see [pdf](_data/markdown.pdf)
 see [docx](_data/markdown.docx)
 
-PDF ["/_data/markdown.pdf"]
-DOCX ["/_data/markdown.docx"]
