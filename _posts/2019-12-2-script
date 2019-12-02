@@ -1,0 +1,52 @@
+---
+layout: post
+title: python script
+---
+
+import os
+import re  
+
+os.chdir("/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/scraping/test")
+
+allfiles = os.listdir("/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/scraping/test")
+
+for file in allfiles:
+    with open(file, "r", encoding="UTF-8") as f1:
+        data = f1.read()
+    
+    data_merge = re.sub("\n", "", data)
+    data_split = re.split("</div3>", data_merge)
+    
+    
+    date = re.search(r"</pubPlace> <date value=\"(\d\d\d\d-\d\d-\d\d)\" authname", data).group(1)
+
+    final_list = []
+
+    for r in data_split:
+        type1 = re.findall(r"div1 type=\"(.{0,20})\" org", str(r))
+        type2 = re.findall(r"div2 type=\"(.{0,20})\" org", str(r))
+        type3 = re.findall(r"div3 type=\"(.{0,20})\" n", str(r))
+        number = re.findall(r"div3 type=\".{0,20}\" n=\"(\d*)\" org", str(r))    
+        head = re.findall(r"<head>(.*)</head>", str(r))
+        opener = re.findall(r"<opener>(.*)</opener>", str(r))    
+        cleaned = re.sub(r"<[^<]+>", "", str(r))
+        article = ("".join(type1) + "\\" + "".join(type2) + "\\" + "".join(type3) + " " + "".join(number) + "\n" + "Headline: \n" + "".join(head) + "".join(opener) + "\n" + "Text: \n" + cleaned + "breaker")
+        final_list.append(article)
+    
+    final_string = "".join(final_list)
+    final_string_split = re.split("breaker", final_string)
+
+    for r in final_string_split:
+        r = re.sub("<[^<]+>", "", str(r))
+    
+    for count, r in enumerate(final_string_split, start=0):
+        number = count 
+    
+    for count, r in enumerate(final_string_split):    
+        newfilename = "/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/scraping/test_new" + date + "_" + str(count) + ".xml"
+        with open(newfilename, "w", encoding="UTF-8") as f9:
+            f9.write(r)
+        
+
+
+by courtesy of Daria Lebedeva, adjusted to Mac OS
