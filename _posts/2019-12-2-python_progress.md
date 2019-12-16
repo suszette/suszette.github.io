@@ -3,7 +3,7 @@ layout: post
 title: python progress
 ---
 
-![1]  
+[1]  
 
 ![2](https://drive.google.com/open?id=19-1k9xTHokO66nkm-VfNCHYsCXVGD2fS)  
 
