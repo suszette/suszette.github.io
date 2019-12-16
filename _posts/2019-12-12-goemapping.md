@@ -5,8 +5,8 @@ title: geomapping
 
 # 1. map virginia
 
-![virginia_1](https://drive.google.com/open?id=1t4NwWJQFi3gtmq6b0cV2lPAsW5sAeCUl)
-![virgina_2](https://drive.google.com/open?id=1j9qQiKQmoxKZM8fwkba5T83yPYwRnhPh)
+[virginia_1]
+[virgina_2]
 
 coordinates:
 
@@ -34,8 +34,8 @@ Huntsville,-86.62636,34.78430,-9643201.789,4134606.746``
 
 # 2. map united states - north america
 
-![US_1](https://drive.google.com/open?id=1IVCu-tmeaza57v-gM-krEVZ9ATzQfPsw)
-![US_2](https://drive.google.com/open?id=1SyiL1XL1NIsT1jgbHMLU_NmPqFU1dfww)
+[US_1]
+[US_2]
 
 coordinates:
 
@@ -62,3 +62,8 @@ Colombia,-76.33790,35.86560,-8497895.968,4282144.308
 Huntsville,-86.62636,34.78430,-9643201.789,4134606.746``
 
 
+[virginia_1]: https://drive.google.com/open?id=1t4NwWJQFi3gtmq6b0cV2lPAsW5sAeCUl
+[virgina_2]: https://drive.google.com/open?id=1j9qQiKQmoxKZM8fwkba5T83yPYwRnhPh
+
+[US_1]: https://drive.google.com/open?id=1IVCu-tmeaza57v-gM-krEVZ9ATzQfPsw
+[US_2]: https://drive.google.com/open?id=1SyiL1XL1NIsT1jgbHMLU_NmPqFU1dfww
