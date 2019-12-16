@@ -6,6 +6,7 @@ title: geomapping
 # 1. map virginia
 
 [virginia_1]
+
 [virgina_2]
 
 coordinates:
@@ -35,6 +36,7 @@ Huntsville,-86.62636,34.78430,-9643201.789,4134606.746``
 # 2. map united states - north america
 
 [US_1]
+
 [US_2]
 
 coordinates:
