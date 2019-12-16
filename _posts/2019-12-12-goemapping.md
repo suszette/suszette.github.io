@@ -10,7 +10,7 @@ title: geomapping
 
 coordinates:
 
->> ``city,lon,lat,lon2,lat2
+> ``city,lon,lat,lon2,lat2
 Augusta,-81.88273,33.42963,-9115143.441,3952470.451
 St. Augustine,-81.38807,29.77305,-9060079.036,3474411.303
 Charleston,-79.97157,32.75780,-8902394.605,3863199.371
@@ -38,7 +38,8 @@ Huntsville,-86.62636,34.78430,-9643201.789,4134606.746``
 ![US_2](https://drive.google.com/open?id=1SyiL1XL1NIsT1jgbHMLU_NmPqFU1dfww)
 
 coordinates:
-``city,lon,lat,lon2,lat2
+
+> ``city,lon,lat,lon2,lat2
 Augusta,-81.88273,33.42963,-9115143.441,3952470.451
 St. Augustine,-81.38807,29.77305,-9060079.036,3474411.303
 Charleston,-79.97157,32.75780,-8902394.605,3863199.371
