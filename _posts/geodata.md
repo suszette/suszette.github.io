@@ -48,7 +48,7 @@ title: extracting & preparing geographical data
 
 	with open("lonlat.csv", "w", encoding="utf8") as f9:
 		f9.write("\n".join(finalTable))
- 
+
  ```
  
  
