@@ -58,49 +58,49 @@ title: extracting & preparing geographical data
  [1]: https://drive.google.com/open?id=1UFCBfAwod3D3vQyRrFb9Vr-DPj-QQ2th
  
  ```
-import re, os
+	import re, os
 
-source = "/Volumes/euterpe/full/"
-source2 = "/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/places.csv"
+	source = "/Volumes/euterpe/full/"
+	source2 = "/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/places.csv"
 
-lof = os.listdir(source)
-counter = 0 
+	lof = os.listdir(source)
+	counter = 0 
 
-lonlat = {}
+	lonlat = {}
 
-for f in lof:
-    if f.startswith("TGNOut_Full"): # fileName test
- 
-        print(source+f)     
-        with open(source + f, "r", encoding="utf8") as f1:
-            text = f1.read()
+	for f in lof:
+	    if f.startswith("TGNOut_Full"): # fileName test
 
-
-            tgn = re.findall(r'tgn,(\d+)', text).group(1)
-
-            with open(source2 + f, "r", encoding="utf8") as f2:
-            text2 = f2.read()
+		print(source+f)     
+		with open(source + f, "r", encoding="utf8") as f1:
+		    text = f1.read()
 
 
-            if tgn in source2:
-            			tgn += 1
+		    tgn = re.findall(r'tgn,(\d+)', text).group(1)
 
-	            for lon in tgn:
-	            	lon = re.search(r'<____="(____)"', text).group(2)
-
-	            for lat in tgn:
-	            	lat = re.search(r'<____="(____)"', text).group(2)
+		    with open(source2 + f, "r", encoding="utf8") as f2:
+		    text2 = f2.read()
 
 
-				v = str(lon, lat)
+		    if tgn in source2:
+					tgn += 1
 
-finalTable = []
+			    for lon in tgn:
+				lon = re.search(r'<____="(____)"', text).group(2)
 
-for k,v in lonlat.items():
-	temp = str(k)+','+v
-	finalTable.append(temp)
+			    for lat in tgn:
+				lat = re.search(r'<____="(____)"', text).group(2)
 
-with open("lonlat.csv", "w", encoding="utf8") as f9:
- 	f9.write("\n".join(finalTable))
+
+					v = str(lon, lat)
+
+	finalTable = []
+
+	for k,v in lonlat.items():
+		temp = str(k)+','+v
+		finalTable.append(temp)
+
+	with open("lonlat.csv", "w", encoding="utf8") as f9:
+		f9.write("\n".join(finalTable))
             		
 ```
