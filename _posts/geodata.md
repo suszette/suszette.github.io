@@ -51,5 +51,5 @@ title: extracting & preparing geographical data
  
  ```
  
- ![screenshot file tgn and frequencies][x]
- [x]: https://drive.google.com/open?id=1UFCBfAwod3D3vQyRrFb9Vr-DPj-QQ2th
+ ![screenshot file tgn and frequencies][1]
+ [1]: https://drive.google.com/open?id=1UFCBfAwod3D3vQyRrFb9Vr-DPj-QQ2th
