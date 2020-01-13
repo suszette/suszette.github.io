@@ -50,4 +50,5 @@ title: extracting & preparing geographical data
 		f9.write("\n".join(finalTable))
  
  
-            		
+ ![screenshot file tgn and frequencies][x]
+ [x]: https://drive.google.com/open?id=1UFCBfAwod3D3vQyRrFb9Vr-DPj-QQ2th
