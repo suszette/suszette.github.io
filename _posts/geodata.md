@@ -3,7 +3,7 @@ layout: post
 title: extracting & preparing geographical data
 ---
 
-import re, os
+``import re, os
 
 source = "/Volumes/euterpe/full/"
 source2 = "/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/places.csv"
@@ -11,7 +11,7 @@ source2 = "/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/too
 lof = os.listdir(source)
 counter = 0 
 
-``lonlat = {}
+lonlat = {}
 
 for f in lof:
     if f.startswith("TGNOut_Full"): # fileName test
@@ -46,7 +46,7 @@ for k,v in lonlat.items():
 	finalTable.append(temp)
 
 with open("lonlat.csv", "w", encoding="utf8") as f9:
- ``	f9.write("\n".join(finalTable))
+	f9.write("\n".join(finalTable))
  
  
             		
