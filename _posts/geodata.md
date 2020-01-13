@@ -3,7 +3,7 @@ layout: post
 title: extracting & preparing geographical data
 ---
 
-
+```
 	import re, os
 
 	source = "/Volumes/euterpe/full/"
@@ -49,6 +49,7 @@ title: extracting & preparing geographical data
 	with open("lonlat.csv", "w", encoding="utf8") as f9:
 		f9.write("\n".join(finalTable))
  
+ ```
  
  ![screenshot file tgn and frequencies][x]
  [x]: https://drive.google.com/open?id=1UFCBfAwod3D3vQyRrFb9Vr-DPj-QQ2th
