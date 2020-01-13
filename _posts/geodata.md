@@ -3,7 +3,6 @@ layout: post
 title: extracting & preparing geographical data
 ---
 
-``
 
 	import re, os
 
