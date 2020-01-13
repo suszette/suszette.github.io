@@ -3,7 +3,9 @@ layout: post
 title: extracting & preparing geographical data
 ---
 
-``import re, os
+``
+
+import re, os
 
 source = "/Volumes/euterpe/full/"
 source2 = "/Users/susanna/Documents/Studien/MA Zeitgeschichte & Medien/3.Sem/tools and techniques/places.csv"
