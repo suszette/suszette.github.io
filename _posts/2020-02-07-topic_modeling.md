@@ -3,7 +3,7 @@ layout: post
 title: topic modeling with jupyter notebook
 ---
 
-changed to 30, and ran it
+changed to 30 and ran it:
 
 ![topics](https://raw.githubusercontent.com/suszette/suszette.github.io/master/img/02.png)
 
