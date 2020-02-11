@@ -5,9 +5,9 @@ title: geomapping
 
 # 1. map virginia
 
-[virginia_1]
+![virginia_1](https://raw.githubusercontent.com/suszette/suszette.github.io/master/img/virginia_01.png)
 
-[virgina_2]
+![virgina_2](https://raw.githubusercontent.com/suszette/suszette.github.io/master/img/virginia_02.png)
 
 coordinates:
 
@@ -35,9 +35,9 @@ Huntsville,-86.62636,34.78430,-9643201.789,4134606.746``
 
 # 2. map united states - north america
 
-[US_1]
+![US_1](https://raw.githubusercontent.com/suszette/suszette.github.io/master/img/US_01.png)
 
-[US_2]
+![US_2](https://raw.githubusercontent.com/suszette/suszette.github.io/master/img/US_02.png)
 
 coordinates:
 
@@ -62,10 +62,3 @@ Zanesville,-82.01529,39.98688,-9129899.852,4864035.814
 Washington,-77.19171,38.84057,-8592941.513,4698860.934
 Colombia,-76.33790,35.86560,-8497895.968,4282144.308
 Huntsville,-86.62636,34.78430,-9643201.789,4134606.746``
-
-
-[virginia_1]: https://drive.google.com/open?id=1t4NwWJQFi3gtmq6b0cV2lPAsW5sAeCUl
-[virgina_2]: https://drive.google.com/open?id=1j9qQiKQmoxKZM8fwkba5T83yPYwRnhPh
-
-[US_1]: https://drive.google.com/open?id=1IVCu-tmeaza57v-gM-krEVZ9ATzQfPsw
-[US_2]: https://drive.google.com/open?id=1SyiL1XL1NIsT1jgbHMLU_NmPqFU1dfww
