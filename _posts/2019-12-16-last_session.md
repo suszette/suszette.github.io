@@ -3,6 +3,4 @@ layout: post
 title: last session!
 ---
 
-[last python]
-
-[last python]: https://drive.google.com/open?id=1AjcP9sR-z43bALyGLsE-fDccVAfz12h1
+![last python](https://raw.githubusercontent.com/suszette/suszette.github.io/master/img/python_10.png)
